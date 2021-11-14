@@ -26,7 +26,7 @@ export function QuoteBox () {
           id="text"
           style={{ color: state.color }}
         >
-          <i className="fa fa-quote-left" />  {!isLoading && quote.fact }
+          <i className="fa fa-quote-left" /> {!isLoading && quote.fact} <i className="fa fa-quote-right" /> 
         </blockquote>
       </div>
       <span

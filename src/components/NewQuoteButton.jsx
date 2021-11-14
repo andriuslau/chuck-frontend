@@ -19,7 +19,7 @@ export const NewQuoteButton = () => {
       style={{ backgroundColor: state.color }}
       onClick={handleClick}
     >
-      <span>New Quote</span>
+      <span>Reverse kick</span>
     </button>
   )
 }
